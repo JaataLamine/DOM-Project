@@ -1,0 +1,59 @@
+/* Resetting margin and padding of the page */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#body {
+  background-color: whitesmoke;
+}
+
+/* Desining the shopping cart */
+.cart-container {
+  max-width: 750px;
+  height: 500px;
+  margin: 50px auto;
+  padding: 30px 20px;
+  border-radius: 20px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  font: 1.2rem 'Roboto';
+}
+
+.cart-container h1 {
+  font-size: 1.7rem;
+  text-align: center;
+  color: #253342;
+  margin: 0;
+}
+
+.cart-table {
+  width: 700px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+tr {
+  height: 40px;
+  padding-left: 60px;
+}
+
+td .deleted {
+  font-weight: bold;
+}
+
+.total {
+  margin: 20px 0 0 20px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: cornflowerblue;
+}
+
+td .quantity, button {
+  display: inline-block;
+}
+
+td .quantity {
+  width: 80px;
+}
